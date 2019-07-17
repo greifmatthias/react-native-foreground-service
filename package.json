@@ -1,0 +1,27 @@
+{
+    "name": "react-native-foreground-service",
+    "version": "1.0.0",
+    "description": "A React Native android module to support launching a foreground service and JS code execution",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "update": "npx npm-check-updates -u && npm i"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/greifmatthias/react-native-foreground-service.git"
+    },
+    "author": {
+        "name": "Greif Matthias"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "react-native": ">=0.64.1"
+    },
+    "devDependencies": {
+        "@babel/core": "7.14.3",
+        "@babel/runtime": "7.14.0",
+        "@react-native-community/eslint-config": "2.0.0",
+        "eslint": "7.27.0"
+    }
+}
